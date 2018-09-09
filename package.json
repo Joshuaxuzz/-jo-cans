@@ -2,7 +2,7 @@
   "name": "@jo/cans",
   "version": "1.0.0",
   "description": "canvas的静态方法处理方案",
-  "main": "dist/cans.js",
+  "main": "dist/cans.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
@@ -10,11 +10,17 @@
     "watch": "rollup -c -w",
     "server": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["canvas", "poster"],
+  "homepage": "https://github.com/Joshuaxuzz/jo-cans",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshuaxuzz/jo-cans.git"
+  },
+  "author": "joshua",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "express": "^4.16.3",
     "rollup": "^0.65.2",
